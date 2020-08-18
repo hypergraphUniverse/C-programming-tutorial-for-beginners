@@ -130,7 +130,7 @@ This article is especially suitable for you:
 
 Why are most of the computer language books with "suitable for beginners" still difficult to understand? Do you have a feeling that you have read a lot but then forget the most of it after a few days? That's a actually a problem for all beginners in programming.
 
-<img src=".\引用图片\007.png" align="center" width="600" />
+<img src=".\引用图片\007.png" align="middle" width="600" />
 
 The problem is, these authors assume that you already have a great amount of knowledge about computers, which is far more that what a person could get by just using Word, Powerpoint and Excel. Just like having a driving lincese doesn't mean that you can explain the name and function of each component in the car. Let alone reading a book like "Making a car within 30 days" .
 
