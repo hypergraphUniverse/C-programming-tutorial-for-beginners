@@ -13,7 +13,7 @@ Please scroll down for English Version
 
 为什么市面上所说的大多“适合新手入门”的计算机语言书对于新手仍然晦涩难懂呢？或者说，即使确实适合新手，你是否有一种看了很多但是知识仍然不过脑子的感受呢？这些都是正常的，并不是因为这些作者防止你过来抢饭碗，于是故意设置难度来劝退你（笑）
 
-<img src=".\引用图片\001.jpg" align="center" width="600" />
+<img src=".\引用图片\001.jpg" align="middle" width="600" />
 
 (中文翻译版本确实没有找到更加清晰的图片了……)
 
@@ -130,7 +130,7 @@ This article is especially suitable for you:
 
 Why are most of the computer language books with "suitable for beginners" still difficult to understand? Do you have a feeling that you have read a lot but then forget the most of it after a few days? That's a actually a problem for all beginners in programming.
 
-<iframe src="https://me.me/embed/i/11924282" width="500" height="1202" frameBorder="0" class="meme-embed" style="max-width:100%;margin:0 auto;" allowFullScreen></iframe><p>via <a href="https://me.me">MEME</a></p>
+<img src=".\引用图片\007.png" align="center" width="600" />
 
 The problem is, these authors assume that you already have a great amount of knowledge about computers, which is far more that what a person could get by just using Word, Powerpoint and Excel. Just like having a driving lincese doesn't mean that you can explain the name and function of each component in the car. Let alone reading a book like "Making a car within 30 days" .
 
