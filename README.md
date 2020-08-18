@@ -9,7 +9,7 @@ Please scroll down for English Version
 1. 之前从来没有接触过编程，但是想要自学C的人。
 2. 上C语言的课程觉得不怎么听得懂，总觉得老师讲的“太过零碎”“抓不住重点”，希望真正透彻理解C语言的人。
 
-
+&nbsp;
 
 为什么市面上所说的大多“适合新手入门”的计算机语言书对于新手仍然晦涩难懂呢？或者说，即使确实适合新手，你是否有一种看了很多但是知识仍然不过脑子的感受呢？这些都是正常的，并不是因为这些作者防止你过来抢饭碗，于是故意设置难度来劝退你（笑）
 
@@ -33,7 +33,7 @@ Please scroll down for English Version
 
 如果你真的一时半会儿读不懂，就不要纠结了，跳过吧。之后有缘再会。
 
-
+&nbsp;
 
 1.2 这个网站的界面的介绍：
 
@@ -41,7 +41,7 @@ Please scroll down for English Version
 
 <img src=".\引用图片\002.png" style="float:left;" width="800" />
 
-
+&nbsp;
 
 > ℹ 首次出现：**粗体**
 >
@@ -51,7 +51,7 @@ Please scroll down for English Version
 >
 > 当然了，这并不意味着这个关键词会被处处加上黑体，否则排版很乱。
 
-
+&nbsp;
 
 > ℹ 首次出现：首次出现
 >
@@ -59,7 +59,7 @@ Please scroll down for English Version
 >
 > 例如说，刚才，出现了第一个粗体“**GitHub**”，而粗体是一种我的文档里面，还没有出现过的约定或者排版。我希望你能够明白，黑体意味着重复出现的关键词，因此我写了个“首次出现：粗体”，来让你了解粗体排版的含义。
 
-
+&nbsp;
 
 1.3 文件夹的结构的介绍：
 
@@ -69,13 +69,13 @@ Please scroll down for English Version
 
 <img src=".\引用图片\003.png" style="float:left;" width="800" />
 
-
+&nbsp;
 
 同时，每一个章节会有一个**任务文件夹**。每个章节的**md文件**，也就是介绍文档中，会布置一些辅助或者加深你的理解的任务。任务所需要的各种材料都会在这个**任务文件夹**之中。
 
 需要记住：上机操作在计算机学习中是一个非常重要的辅助理解的手段，请不要随意跳过。大部分任务难度都不大，标记”(选做)“的任务可能略微需要你努力一些。当然，我出的任务都是围绕介绍文档来的，并不存在超纲问题，因此我希望你能够全部完成。
 
-
+&nbsp;
 
 如果是编程任务，里面会有一个带有介绍的空白**源代码**(下图中的mission_0.0.c)，里面基本上是空的，或者是残缺的。总之，他就是你的任务目标了，你需要完成它。同一个文件夹中还会附有：一份**范例程序**；一份正确但不一定最优的**源代码答案**(下图中的mission_0.0_reference.c)，即参考答案。
 
@@ -83,7 +83,7 @@ Please scroll down for English Version
 
 <img src=".\引用图片\004.png" style="float:left;" width="800" />
 
-
+&nbsp;
 
 > ⚠ 有限的介绍
 >
@@ -91,7 +91,7 @@ Please scroll down for English Version
 >
 > 关于**源代码**，**程序**的定义和关系，我会在后面“第1章-C语言预备知识”中比较详细的介绍。
 
-
+&nbsp;
 
 > ℹ 首次出现：有限的介绍
 >
@@ -101,7 +101,7 @@ Please scroll down for English Version
 >
 > 因此，我使用”有限的介绍“这种标签表示，这里的介绍并不够完整，甚至有可能并不完全正确。希望你能够记住这一点，在之后的重新学习的中不要忘记他们。同时，我希望通过这样的标注方式让文章变得更有条理。
 
-
+&nbsp;
 
 "引用图片"这个文件夹不需要关注。他是MD文件应用的图片的来源。
 
@@ -109,15 +109,15 @@ Please scroll down for English Version
 
 如果你读不懂上面引用文字（即前面有竖杠，字体略微变灰的部分），也不用在意，他们都是可以用直觉感受到的东西，多见几次你就明白了，不用太过担忧。
 
-
+&nbsp;
 
 ## 2.其他的话
 
 一个人写的文章，肯定会出现各种各样的问题。如能斧正，不尽感激。
 
+&nbsp;
 
-
-
+&nbsp;
 
 # Welcome！
 
@@ -128,7 +128,7 @@ This article is especially suitable for you:
 1. Someone who wants to learn C by himself/herself, but have no idea about programming.
 2. Someone who gets very little in teacher/professor's C language course, and is seeking for a tutorial about C language which is easy to understand.
 
-
+&nbsp;
 
 Why are most of the computer language books with "suitable for beginners" still difficult to understand? Do you have a feeling that you have read a lot but then forget the most of it after a few days? That's a actually a problem for all beginners in programming.
 
@@ -144,7 +144,7 @@ That's what I am trying to do - to write a programming tutorial that can be unde
 
 In addition, the introduction of command line in Chapter 0 only covers Windows 10 system. Because there are a lot of screenshots, and the explanation is extremely detailed, so I don't have time to make the introduction for other systems. Sorry for that.
 
-
+&nbsp;
 
 ## 1. What you need to know now
 
@@ -154,7 +154,7 @@ If you have trouble reading, please go back to the place where you can understan
 
 If you really don't understand it for a while, don't worry about it and skip it. You can read it later. Maybe a few hours later, or a few week later. It is all on you.
 
-
+&nbsp;
 
 1.2 Instructions to the interface of GitHub:
 
@@ -162,7 +162,7 @@ This is **GitHub**. If you haven't used it before, you can just understand it as
 
 <img src=".\引用图片\005.png" style="float:left;" width="800" />
 
-
+&nbsp;
 
 > ℹ First appearance: **Bold**
 >
@@ -172,7 +172,7 @@ This is **GitHub**. If you haven't used it before, you can just understand it as
 >
 > Of course, this does not mean that the keyword will be boldly marked everywhere, otherwise the layout will be messy.
 
-
+&nbsp;
 
 > ℹ First appearance: First appearance
 >
@@ -180,7 +180,7 @@ This is **GitHub**. If you haven't used it before, you can just understand it as
 >
 > For example, just now, the first bold "**GitHub**" appeared, and the bold is a convention for terms or keyword that appear more than once. So I wrote a "first appearance" after it to explain why do I use bold here.
 
-
+&nbsp;
 
 Introduction to the structure of the folder:
 
@@ -188,13 +188,13 @@ There is a file like "xxx.md". "md" stands for "Markdown". **Markdown file(follo
 
 <img src=".\引用图片\006.png" style="float:left;" width="800" />
 
-
+&nbsp;
 
 At the same time, each chapter will have a "**mission folder**". The the introduction of each chapter(**the MD file in each folder**) will assign some tasks to deepen your understanding of the introduction.
 
 Remember: Practise by yourself is a very important way to learn. Most tasks are not difficult, only tasks with "optional" may take a bit more effort. Of course, all missions are based on the introduction, so I hope you can complete them all.
 
-
+&nbsp;
 
 If it is a programming task, there will be a blank or incomplete **source code** (mission_0.0.c) with a brief introduction. That what you need to complete. The same folder will also include: a copy of **sample program**; a correct but not necessarily optimal **reference answer **(mission_0.0_reference.c).
 
@@ -202,7 +202,7 @@ If you don't understand the requirements well, I suggest that you should run the
 
 <img src=".\引用图片\004.png" style="float:left;" width="800" />
 
-
+&nbsp;
 
 > ⚠ Limited explanation
 >
@@ -210,7 +210,7 @@ If you don't understand the requirements well, I suggest that you should run the
 >
 > Definition and relationship of **source code** and **program** is in "Chapter 1-Preliminary Knowledge of C".
 
-
+&nbsp;
 
 > ℹ First appearance: Limited explanation
 >
@@ -220,17 +220,17 @@ If you don't understand the requirements well, I suggest that you should run the
 >
 > Therefore, I will mark "Limited explanation" to tell you that this introduction is incomplete or even partly incorrect. You should remind yourself that you will learn "a better version" later. At the same time, I think this will also make the tutorial more organized.
 
-
+&nbsp;
 
 "Picture" folder serves as the source for MD file. You can just ignore it.
 
-
+&nbsp;
 
 That's what you need to know here! Now you can start "Chapter 0-Preliminary Knowledge of Computer". Be Relax.
 
 If you can’t read the quoted text above (The part with the vertical bar and the font is slightly grayed out), never mind. You will understand it after seeing it a few more times.
 
-
+&nbsp;
 
 ##  2. Other words
 
@@ -238,11 +238,11 @@ To English readers:
 
 I takes time to translate. And I don't have enough time to polish every sentence in the English Version. Sorry if the are many typos and also sorry if the English Version is much later than the Chinese one.
 
-
+&nbsp;
 
 This article is written by one person in his spare time, it will definitely have many mistakes. I am very grateful if you can point those mistakes out.
 
- 
+ &nbsp;
 
 ------
 
