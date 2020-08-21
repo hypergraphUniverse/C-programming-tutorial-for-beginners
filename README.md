@@ -67,6 +67,8 @@ Please scroll down for English Version
 
 每当你进入一个新章节的时候，你就会看到这样一个文档——点开它就行了，它就是你进入学习章节需要阅读的东西。
 
+如果有人找我的一些提问很有价值，我也会将其内容收藏到同一个文件夹中。如果有什么疑问，先去那里看看，没有找到的话也可以向我提出。
+
 <img src=".\引用图片\003.png" style="float:left;" width="800" />
 
 &nbsp;
@@ -185,6 +187,8 @@ This is **GitHub**. If you haven't used it before, you can just understand it as
 Introduction to the structure of the folder:
 
 There is a file like "xxx.md". "md" stands for "Markdown". **Markdown file(following MD file)** is a document that doesn't require writer to care too much about font size and font style. More Importantly, it can be directly read on the website of GitHub. When you enter the folder of each Chapter, you will see a **MD file** like this. This is what you need to read if you want to start this chapter.
+
+If there are some good questions about the text, I will also collect them in a seperate MD file in the same folder. If you have questions, go and check there first. Then ask me if the existing Q&A does't  answer your doubt.
 
 <img src=".\引用图片\006.png" style="float:left;" width="800" />
 
