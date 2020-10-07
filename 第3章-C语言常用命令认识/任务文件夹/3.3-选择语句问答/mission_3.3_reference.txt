@@ -1,0 +1,59 @@
+mission_3.3问答
+
+1.
+关于C语言接受的逻辑判断中，究竟什么条件表示真，什么条件表示假？
+答案：表达式求值之后为零则为假，否则为真。
+
+如果我想要表达出这个语句必须要多个条件同时满足才能够执行，请问应该使用什么逻辑运算符连接这些条件？
+答案：逻辑与操作符&&
+
+2.
+if语句中有一个空悬else的问题，请问下面这个else是和那一处标记中的if相匹配的？
+
+int i,j;
+scanf("%d",&i);
+scanf("%d",&j);
+if(i==0)                            //标记1
+    if(j==0)                        //标记2
+         printf("text1\n");
+else
+    printf("text2\n");
+
+答案：标记2，这件事情告诉我们，不要采用错误的排版，而且最为关键的是，在这种语句中大括号能加就加。
+
+3.
+switch语句中常常需要使用case语句、default语句和break来辅助控制。请按照如下问题问答：
+
+下面这段代码是用来判断输入y/n并且执行对应判断的代码。请问这个代码是否能够达到要求？如果无法达到要求怎么改正？
+switch(input){
+    case 'y':case 'Y':printf("您选择了确认!\n");
+    case 'n':case 'N':printf("您选择了取消!\n");
+    default:printf("您的输入不符合要求!\n");
+}
+答案：不能达到要求，应该在行末添加"break;"，否则判断会互相混合。
+
+下面这段代码是否正确？为什么？
+int i,j;
+scanf("%d",&i);
+scanf("%d",&j);
+switch(i){
+    case j: printf("您的两次输入一致!\n");break;
+    default: printf("您的两次输入不一致!\n");break;
+}
+答案：不正确，case后面只能够使用常值。
+
+下面这段代码是否正确？为什么？
+int i;
+scanf("%d",&i);
+switch(i){
+    case 1: 
+        int j;
+        scanf("%d",&j);
+        printf("您的两次输入分别是1和%d\n",j);
+        break;
+    
+    default: 
+        printf("您的第一次输入是%d!\n",i);
+        break;
+}
+答案：不正确。switch后面的复合语句中不能声明。

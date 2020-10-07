@@ -1,0 +1,20 @@
+mission_3.6问答
+
+请将下面这一段非常糟糕的代码改写成K&R和微软风格的排版，如果你能够将变量名变得有意义就更好了。
+请用四个空格表示缩进。
+
+#include<stdio.h>
+int main
+(void){
+int A;int b;int c
+    ;scanf("%d",&A);
+  c=0;for
+(int i=0;
+i<A;i++){scanf("%d",&b);c+=b;}
+        printf("%d",c);
+return 0;} 
+
+K&R风格：
+
+
+微软风格：

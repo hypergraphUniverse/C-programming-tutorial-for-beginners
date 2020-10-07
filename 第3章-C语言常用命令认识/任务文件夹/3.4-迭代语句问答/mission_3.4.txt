@@ -1,0 +1,26 @@
+mission_3.4问答
+
+1.
+for语句中的结构是这样的
+for(expression1;expression2;expression3)
+    statement;
+
+哪一个expression是用来判断循环是否进行的：
+我们简写expression1/2/3为1/2/3，并且简写statement为4。如果说for语句能够一直执行下去，四个语句的执行顺序是什么？
+答案（由序号1/2/3/4组成，至少要执行两个循环）：
+
+2.
+请看如下的代码，请问代码执行的结果是什么？为什么会出现这样的现象？
+int i=0;
+while(i=10){
+    printf("现在i是%d",i);
+    i--;
+}
+答案：
+
+3.
+如果你没有在编译器选项中打开"std=c99"，你在编译如下代码会遇见什么问题？
+for(int i=0;i<=10;i++){
+    printf("%d",i);
+}
+答案：

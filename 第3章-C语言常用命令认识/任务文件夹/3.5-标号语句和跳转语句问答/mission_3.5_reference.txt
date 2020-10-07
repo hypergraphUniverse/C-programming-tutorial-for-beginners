@@ -1,0 +1,50 @@
+mission_3.5问答
+
+1.
+请说出下面几个break是否使用正确，正确的话会跳转到哪里？（给出break之后会执行的第一个语句）
+
+//代码从这里开始
+int counter=0;
+int a[700];
+while(1){
+    scanf("%d",a[counter]);
+    if(a[counter]==0);{
+        break;
+    }
+    counter++;
+}
+counter--;
+答案：正确，会跳转到counter--;
+
+//代码从这里开始
+if(i%2!=0){
+    printf("i是奇数"\n);
+    if(i%5==0){
+        break;
+    }
+    printf("i不是5的倍数"\n);
+}
+printf("判断结束\n");
+答案：错误，break只能出现在迭代语句或者switch中。
+
+2.
+最好不要使用goto。请将下面这一段代码改写成不需要goto的语句。
+
+char input;
+start:
+printf("1234567890\n");
+printf("还要再打印一次吗？<y表示确认>");
+fflush(stdin);
+scanf("%c",&input);
+if(input=='y'){
+    goto start;
+}
+
+改写之后(请将代码复制到下面并且改写)：
+char input;
+do{
+    printf("1234567890\n");
+    printf("还要再打印一次吗？<y表示确认>");
+    fflush(stdin);
+    scanf("%c",&input);
+}(input=='y')
