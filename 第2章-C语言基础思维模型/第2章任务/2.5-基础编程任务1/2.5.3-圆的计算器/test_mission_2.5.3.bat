@@ -10,6 +10,7 @@ set para[2]=0
 set para[3]=15
 set para[4]=100
 set para[5]=1.234
+set para[6]=882
 set para[7]=200
 set para[8]=23
 set para[9]=9.9999

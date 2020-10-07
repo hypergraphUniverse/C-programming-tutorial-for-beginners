@@ -1,19 +1,19 @@
 @echo off
 ::元数据段
 setlocal enabledelayedexpansion
-set bat_version=0.1beta 
+set bat_version=0.2beta 
 set interactive=0
-set mission_name=mission_2.5.2
-set para[0]=1.11111111
-set para[1]=57.2
+set mission_name=mission_3.7.1
+set para[0]=a
+set para[1]=B
 set para[2]=0
-set para[3]=-15
-set para[4]=100
-set para[5]=-1.234
-set para[6]=212
-set para[7]=-200
-set para[8]=23
-set para[9]=-9.9999
+set para[3]=@
+set para[4]=$
+set para[5]=.
+set para[6]=[
+set para[7]=x
+set para[8]=C
+set para[9]=?
 set paralist=0,1,9
 
 
@@ -62,8 +62,6 @@ pause
 ::检查主体
 chcp 936 1>nul
 for /L %%n in (%paralist%) do ( 
-    cls
-
 @echo on
     @echo !para[%%n]! | %mission_name%.exe > your_output
     @echo !para[%%n]! | %mission_name%_reference.exe > reference_output

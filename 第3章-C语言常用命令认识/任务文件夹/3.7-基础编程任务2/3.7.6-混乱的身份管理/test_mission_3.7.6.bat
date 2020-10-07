@@ -1,20 +1,16 @@
 @echo off
 ::元数据段
 setlocal enabledelayedexpansion
-set bat_version=0.1beta 
+set bat_version=0.2beta 
 set interactive=0
-set mission_name=mission_2.5.2
-set para[0]=1.11111111
-set para[1]=57.2
-set para[2]=0
-set para[3]=-15
-set para[4]=100
-set para[5]=-1.234
-set para[6]=212
-set para[7]=-200
-set para[8]=23
-set para[9]=-9.9999
-set paralist=0,1,9
+set mission_name=mission_3.7.6
+set para[0]=1
+set para[1]=1 2 3 4 5 1 2 3 4 5
+set para[2]=111 222 333 123 323 111 333 433 222 333 232
+set para[3]=9381 2911 9382 9201 9381 2912 2913 9982 9382
+set para[4]=2938 281 292 1283 3 21 332 12331 123 123134 223 2123 123134 223 2123 
+set para[5]=10000 10001 10003 10002 10001 10003 10005 10004
+set paralist=0,1,5
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::若无意外下面的代码不用改动！::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -62,8 +58,6 @@ pause
 ::检查主体
 chcp 936 1>nul
 for /L %%n in (%paralist%) do ( 
-    cls
-
 @echo on
     @echo !para[%%n]! | %mission_name%.exe > your_output
     @echo !para[%%n]! | %mission_name%_reference.exe > reference_output
