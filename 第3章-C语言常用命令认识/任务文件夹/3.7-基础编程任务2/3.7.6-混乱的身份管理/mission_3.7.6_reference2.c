@@ -20,27 +20,28 @@
 #include<stdio.h>
 int main(void){
 	int id[100];
-	int num=0,temp;
+	int num=0;
 	
-	//这个在输入过程中就检查了是否重复，因此可以满足额外思考的思路。而且实际上这个代码更加紧凑。 
 	while(1){
-		scanf("%d",&temp);
-		if(temp==0){                //如果为0跳出循环 
+		scanf("%d",&id[num]);                                 //如果说"人数上限为100"，最关键的点就在于将检查是否重复放在保存至数组前 
+		
+		if(id[num]==0){
 			break;
-		} 
-		for(int i=0;i<=num;i++){    //检查是否有重复值，如果有，则不收录此值 
-			if(temp==id[i]){
-				goto no_collect;
-			}
 		}
-		id[num]=temp;               //收录此值 
-		num++;
-		no_collect:;
+		
+		int first=0;                                 
+		while(id[first]!=id[num]){               
+			first++;
+		}
+		if(first==num){                                     //同样是利用标兵来筛查的方法                       
+			num++;             
+		}
 	}
+	//需要注意的是，num最终的角标所在的数据是0，之后不需要使用到他
 	
-	for(int i;i<num;i++){
-		printf("%d\n",id[i]); 
-	}
+	for(int i=0;i<num;i++){                         
+		printf("%d\n",id[i]);            
+	}                                             
 	
 	return 0;
 } 

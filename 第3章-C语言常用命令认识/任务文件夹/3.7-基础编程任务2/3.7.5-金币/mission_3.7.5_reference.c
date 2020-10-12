@@ -22,12 +22,9 @@ int main(void){
 	
 	//判断主体 
 	for(int step=1;days>0;step++){                    //step阶段，即每一天发钱的多少 
-		for(int counter=1;counter<=step;counter++){   //counter计数器，用于探测何时涨薪 
+		for(int counter=1;counter<=step&&days>0;counter++){   //counter计数器，用于探测何时涨薪 
 			coins+=step;
 			days--;
-			if(days==0){                              //到达指定日期之后就立马终止 
-				break;
-			}
 		}
 	}
 	

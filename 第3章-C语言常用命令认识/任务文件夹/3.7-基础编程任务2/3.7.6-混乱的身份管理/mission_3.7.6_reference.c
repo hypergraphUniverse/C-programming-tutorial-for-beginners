@@ -32,14 +32,14 @@ int main(void){
 	//需要注意的是，num最终的角标所在的数据是0，之后不需要使用到他
 	
 	for(int counter=0;counter<num;counter++){
-		for(int i=0;i<counter;i++){
-			if(id[counter]==id[i]){
-				goto no_output;                  //因为要跳出两层for，所以使用goto，也不必投鼠忌器。 
-			}                                    //实际上也可以改编为不用goto，需要加入一个判断是否存在的变量，多了一个变量和几行代码。 
+		int first=0;                                 
+		while(id[first]!=id[counter]){              //查找第一次出现的，和counter位置数字相同的位置first 
+			first++;
 		}
-		printf("%d\n",id[counter]);
-		no_output:; 
-	}
+		if(first==counter){                         //如果这个角标一致，则说明这个数字第一次出现，前面没有和他一样的数字，输出 
+			printf("%d\n",id[counter]);             //如果不一致，说明前面有一个和自己一样的数字，则不输出 
+		}
+	}                                               //这种方式减少了对比，而且还不去使用goto，是一个非常精妙的思路，和标兵查找是一样的想法 
 	
 	return 0;
 } 
