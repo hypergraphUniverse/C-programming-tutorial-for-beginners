@@ -49,7 +49,7 @@ int main(void){
 
 void print_data(struct Profile *target_pt){
 	printf("Name: %s %s\n",target_pt->first_name,target_pt->last_name);
-	printf("Tele: %lld\n",target_pt->tele);
+	printf("Tel: %lld\n",target_pt->tele);
 	if(target_pt->isVip==1){
 		printf("Vip: Yes\n"); 
 	}else{
