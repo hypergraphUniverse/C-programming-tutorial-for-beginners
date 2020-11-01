@@ -30,8 +30,8 @@ int main(void){
 	double init=(double)a/b,approx=(double)max;
 	
 	for(int i=1;i<=max;i++){
-		for(int j=1;j<=max;j++){
-			if((double)i/j>=(double)a/b&&GCD_1(i,j)&&(double)i/j-init<=approx-init){
+		for(int j=1;j<=max&&GCD_1(i,j)&&(double)i/j>=(double)a/b;j++){
+			if((double)i/j-init<=approx-init){
 				a_res=i;
 				b_res=j;
 				approx=(double)i/j;
